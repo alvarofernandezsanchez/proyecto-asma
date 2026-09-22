@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 i = 1
 datos = []
@@ -27,7 +28,6 @@ while True:
 
   i += 1
   datos.append(data)
-  print(data)
 
 nregistros = []
 
@@ -36,4 +36,22 @@ for pagina in datos:
   for resultado in resultados:
     nregistros.append(resultado["nregistro"])
 
-print(nregistros)
+
+
+
+df = pd.DataFrame()
+
+for nregistro in nregistros:
+  url = "https://cima.aemps.es/cima/rest/medicamento?nregistro={nregistro}"
+
+  payload = ""
+  headers = {
+    'Cookie': 'JSESSIONID=3L_KS-QHSOXgqJxYXyuBkUmdehmhvQ-Ub2Qbq44VFy3xy_2iRkNH!962100432'
+  }
+
+  response = requests.request("GET", url, headers=headers, data=payload)
+
+  data = response.json()
+
+
+
