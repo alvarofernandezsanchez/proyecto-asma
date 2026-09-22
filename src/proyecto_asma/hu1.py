@@ -36,13 +36,9 @@ for pagina in datos:
   for resultado in resultados:
     nregistros.append(resultado["nregistro"])
 
-
-
-
-df = pd.DataFrame()
-
+registros_registrados = []
 for nregistro in nregistros:
-  url = "https://cima.aemps.es/cima/rest/medicamento?nregistro={nregistro}"
+  url = f"https://cima.aemps.es/cima/rest/medicamento?nregistro={nregistro}"
 
   payload = ""
   headers = {
@@ -52,6 +48,8 @@ for nregistro in nregistros:
   response = requests.request("GET", url, headers=headers, data=payload)
 
   data = response.json()
+  registros_registrados.append(data)
 
+df = pd.DataFrame(registros_registrados)
 
 
