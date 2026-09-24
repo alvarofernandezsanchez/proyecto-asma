@@ -51,5 +51,33 @@ for nregistro in nregistros:
   registros_registrados.append(data)
 
 df = pd.DataFrame(registros_registrados)
+columnas_validas = [
+    "nregistro",
+    "nombre",
+    "pactivos",
+    "labtitular",
+    "labcomercializador",
+    "cn",
+    "dosis",
+    "forma_farmaceutica_simplificada",
+    "estado_aut",
+    "estado_rev",
+    "vias_administracion",
+    "comercializado",
+    "requiere_receta",
+    "generico",
+    "afecta_conduccion",
+    "triangulo_negro",
+    "medicamento_huerfano",
+    "biosimilar",
+    "url_html_ficha_tecnica",
+    "url_foto_materiales",
+    "num_registros_atc",
+    "num_principios_activos",
+    "num_excipientes"
+]
 
+df_valido = df[columnas_validas]
+
+print(df_valido.columns)
 
