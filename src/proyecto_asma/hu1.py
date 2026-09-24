@@ -47,17 +47,22 @@ for nregistro in nregistros:
 
   response = requests.request("GET", url, headers=headers, data=payload)
   data = response.json()
-  print(nregistro, len(data["presentaciones"]))
   
-  
+  #pendiente lo de princi
   data["cn"] = data["presentaciones"][0].get("cn")
   data["estado_aut"] = data["estado"].get("aut")
   data["estado_rev"] = data["estado"].get("rev", None)
-  data["url_html_ficha_tecnico"] = data["docs"][0].get("url")
-  data["url_foto_materiales"] = data["fotos"][0].get("url")
-  data["num_resgistros_atc"] = len(data["atcs"])
+  data["url_html_ficha_tecnica"] = data["docs"][0].get("url")
+  url_foto = data.get("fotos", None)
+  if url_foto != None: # hacemos esto por que hay algunos que no tienen el campo fotos
+    data["url_foto_materiales"] = url_foto[0].get("url", None)
+  else:
+    data["url_foto_materiales"] = None
+  data["formaFarmaceuticaSimplificada"] = data["formaFarmaceuticaSimplificada"].get("nombre")
+  data["viasAdministracion"] = data["viasAdministracion"][0].get("nombre")
+  data["num_registros_atc"] = len(data["atcs"])
   data["num_principios_activos"] = len(data["principiosActivos"])
-  data["num_excipientes"] = len(data["excipientes"])
+  # data["num_excipientes"] = len(data["excipientes"]) esto no existe en el listado de medicamentos
   
   
   registros_registrados.append(data)
@@ -72,25 +77,22 @@ columnas_validas = [
     "labcomercializador",
     "cn",
     "dosis",
-    "forma_farmaceutica_simplificada",
+    "formaFarmaceuticaSimplificada",
     "estado_aut",
     "estado_rev",
-    "vias_administracion",
-    "comercializado",
-    "requiere_receta",
+    "viasAdministracion",
+    "comerc",
+    "receta",
     "generico",
-    "afecta_conduccion",
-    "triangulo_negro",
-    "medicamento_huerfano",
+    "conduc",
+    "triangulo",
+    "huerfano",
     "biosimilar",
     "url_html_ficha_tecnica",
     "url_foto_materiales",
     "num_registros_atc",
     "num_principios_activos",
-    "num_excipientes"
 ]
-print(df.columns)
 df_valido = df[columnas_validas]
 
-print(df_valido.columns)
-
+df_valido.to_csv("datos.csv")
