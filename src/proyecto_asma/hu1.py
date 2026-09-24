@@ -46,11 +46,24 @@ for nregistro in nregistros:
   }
 
   response = requests.request("GET", url, headers=headers, data=payload)
-
   data = response.json()
+  print(nregistro, len(data["presentaciones"]))
+  
+  
+  data["cn"] = data["presentaciones"][0].get("cn")
+  data["estado_aut"] = data["estado"].get("aut")
+  data["estado_rev"] = data["estado"].get("rev", None)
+  data["url_html_ficha_tecnico"] = data["docs"][0].get("url")
+  data["url_foto_materiales"] = data["fotos"][0].get("url")
+  data["num_resgistros_atc"] = len(data["atcs"])
+  data["num_principios_activos"] = len(data["principiosActivos"])
+  data["num_excipientes"] = len(data["excipientes"])
+  
+  
   registros_registrados.append(data)
 
 df = pd.DataFrame(registros_registrados)
+
 columnas_validas = [
     "nregistro",
     "nombre",
@@ -76,7 +89,7 @@ columnas_validas = [
     "num_principios_activos",
     "num_excipientes"
 ]
-
+print(df.columns)
 df_valido = df[columnas_validas]
 
 print(df_valido.columns)
