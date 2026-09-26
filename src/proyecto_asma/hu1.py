@@ -12,9 +12,9 @@ def get_paginas(enfermedad: str) -> list:
 
         payload = json.dumps([
             {
-                "seccion": "4.1",
-                "texto": enfermedad,
-                "contiene": 1
+              "seccion": "4.1",
+              "texto": enfermedad,
+              "contiene": 1
             }
         ])
         headers = {
@@ -30,7 +30,7 @@ def get_paginas(enfermedad: str) -> list:
 
         i += 1
         datos.append(data)
-        return datos
+    return datos
 
 
 def get_registros(datos: list) -> pd.DataFrame:
@@ -103,4 +103,4 @@ if __name__ == "__main__":
     df = get_registros(datos)
     df_valido = df[columnas_validas]
 
-    df_valido.to_excel("datos.xlsx")
+    df_valido.to_csv("datos.csv")
