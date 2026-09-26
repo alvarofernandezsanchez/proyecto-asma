@@ -55,7 +55,7 @@ def get_registros(datos: list) -> pd.DataFrame:
         data["cn"] = data["presentaciones"][0].get("cn")
         data["estado_aut"] = data["estado"].get("aut")
         data["estado_rev"] = data["estado"].get("rev", None)
-        data["url_html_ficha_tecnica"] = data["docs"][0].get("url")
+        data["url_html_ficha_tecnica"] = data["docs"][0].get("urlHtml")
         url_foto = data.get("fotos", None)
         if url_foto != None: # hacemos esto por que hay algunos que no tienen el campo fotos
             data["url_foto_materiales"] = url_foto[0].get("url", None)
@@ -103,4 +103,6 @@ if __name__ == "__main__":
     df = get_registros(datos)
     df_valido = df[columnas_validas]
 
-    df_valido.to_csv("datos.csv")
+    df_valido.to_excel("datos.xlsx", index=False)
+    df_valido.to_csv("datos.csv", index=False)
+    
