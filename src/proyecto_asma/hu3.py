@@ -14,6 +14,7 @@ COLUMNAS = [
 ]
 
 def descargar_nomenclator() -> pd.DataFrame:
+    # obtenemos el nomenclátor y lo guardamos en un Dataframe
     response = requests.get(URL)
     response.raise_for_status()
     df = pd.read_excel(io.BytesIO(response.content))
@@ -21,6 +22,7 @@ def descargar_nomenclator() -> pd.DataFrame:
 
 def cocinar_nomenclator(df_nomenclator: pd.DataFrame) -> pd.DataFrame: #lo dejamos preparado
     df  = df_nomenclator[COLUMNAS].copy()
+    # modificamos el nombre de las columnas, principalmente de Codigo nacional para que coincida con el "cn" del Dataframe original
     df = df.rename(columns={
         "Código Nacional" : "cn",
         "Estado" : "estado_nomenclator",
@@ -31,6 +33,8 @@ def cocinar_nomenclator(df_nomenclator: pd.DataFrame) -> pd.DataFrame: #lo dejam
     })
     return df
 
+
+# Función que automatiza todo HU3
 def add_variables_nomenclator(df: pd.DataFrame) -> pd.DataFrame:
     df_nomenclator = descargar_nomenclator()
     df_nomenclator_amoldado = cocinar_nomenclator(df_nomenclator)
@@ -39,6 +43,7 @@ def add_variables_nomenclator(df: pd.DataFrame) -> pd.DataFrame:
     df["cn"] = df["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
     df_nomenclator_amoldado["cn"] = df_nomenclator_amoldado["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True) 
     
+    # Hacemos un merge de tipo left join en cn. Así evitamos eliminar medicamentos que no aparezcan en el nomenclator
     df_final = df.merge(df_nomenclator_amoldado, on="cn", how="left")
     return df_final
 

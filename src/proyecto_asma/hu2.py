@@ -6,20 +6,20 @@ import requests
 def get_n_palabras(response):
     soup = BeautifulSoup(response.text, "html.parser")
     
-    h2 = soup.find_all("h2")
+    h2 = soup.find_all("h2") #buscamos todos los <h2> ya que es el titulo de la sección
     
     for h in h2:
-        if h.get_text(strip=True).startswith("4.4"):
+        if h.get_text(strip=True).startswith("4.4"): #si el titulo empieza por 4.4, la guardamos
             seccion_44 = h
             break
-    div_44 = seccion_44.find_next("div")
+    div_44 = seccion_44.find_next("div") # guardamos el siguiente <div>. Este contiene todo el texto de la seccion
     texto = div_44.get_text(" ", strip=True) #pongo " " para separar cada <p> con un espacio y contar palabras bien
     
     return len(texto.split())
     
 def get_n_tablas(response):
     soup = BeautifulSoup(response.text, "html.parser")
-    tablas = soup.find_all("table")
+    tablas = soup.find_all("table") # buscamos todas las etiquetas <table>
     
     return len(tablas)
 
@@ -32,11 +32,13 @@ def get_n_graves(response):
     return len(re.findall(r'\bgraves?\b', texto_completo))
 
 
-def get_metricas(urls):
+# Función que recoge las 3 nuevas métricas
+def get_metricas(urls): 
     
     n_palabras = []
     n_tablas = []
     n_grave = []
+    #para cada url valida, pasamos la respuesta a cada funcion para calcular cada métrica
     for url in urls:
         response = requests.get(url)
         if response.status_code != 200:
@@ -48,9 +50,11 @@ def get_metricas(urls):
         n_palabras.append(get_n_palabras(response))
         n_tablas.append(get_n_tablas(response))
         n_grave.append(get_n_graves(response))
-        
+    
     return n_palabras, n_tablas, n_grave
 
+
+# Función que automatiza todo el HU2 y añade la información al Dataframe
 def add_metricas(df: pd.DataFrame) -> pd.DataFrame:
     urls = df["url_html_ficha_tecnica"]
     n_palabras, n_tablas, n_grave = get_metricas(urls)

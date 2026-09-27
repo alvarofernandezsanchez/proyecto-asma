@@ -8,7 +8,7 @@ def get_paginas(enfermedad: str) -> list:
     datos = []
 
     while True:
-        url = f"https://cima.aemps.es/cima/rest/buscarEnFichaTecnica?pagina={i}"
+        url = f"https://cima.aemps.es/cima/rest/buscarEnFichaTecnica?pagina={i}" #Iteramos páginas
 
         payload = json.dumps([
             {
@@ -25,7 +25,7 @@ def get_paginas(enfermedad: str) -> list:
         response = requests.request("POST", url, headers=headers, data=payload)
         data = response.json()
 
-        if data["totalFilas"] == 0:
+        if data["totalFilas"] == 0: #cuando ya no hay mas informacion, totalFilas siempre aparece a 0, asi que ahí terminamos el bucle
             break
 
         i += 1
@@ -35,13 +35,13 @@ def get_paginas(enfermedad: str) -> list:
 
 def get_registros(datos: list) -> pd.DataFrame:
     nregistros = []
-    for pagina in datos:
+    for pagina in datos: #Para cada página
         resultados = pagina["resultados"]
-        for resultado in resultados:
+        for resultado in resultados: #para cada fila guardamos cada nregistro
             nregistros.append(resultado["nregistro"])
 
     registros_registrados = []
-    for nregistro in nregistros:
+    for nregistro in nregistros: #para cada nregistro
         url = f"https://cima.aemps.es/cima/rest/medicamento?nregistro={nregistro}"
 
         payload = ""
@@ -49,9 +49,10 @@ def get_registros(datos: list) -> pd.DataFrame:
             'Cookie': 'JSESSIONID=3L_KS-QHSOXgqJxYXyuBkUmdehmhvQ-Ub2Qbq44VFy3xy_2iRkNH!962100432'
         }
 
-        response = requests.request("GET", url, headers=headers, data=payload)
+        response = requests.request("GET", url, headers=headers, data=payload) #hacemos consulta GET a la API variando el nregistro
         data = response.json()
 
+        #Nos quedamos con la información solicitada
         data["cn"] = data["presentaciones"][0].get("cn")
         data["estado_aut"] = data["estado"].get("aut")
         data["estado_rev"] = data["estado"].get("rev", None)
@@ -67,12 +68,14 @@ def get_registros(datos: list) -> pd.DataFrame:
         data["num_principios_activos"] = len(data["principiosActivos"])
 
 
-        registros_registrados.append(data)
+        registros_registrados.append(data) #guardamos la fila en una lista
 
     df = pd.DataFrame(registros_registrados)
     return df
 
-def get_datos(enfermedad = "asma") -> pd.DataFrame:
+
+# Función que automatiza HU1
+def get_datos(enfermedad = "asma") -> pd.DataFrame: 
     columnas_validas = [
         "nregistro",
         "nombre",
@@ -100,7 +103,7 @@ def get_datos(enfermedad = "asma") -> pd.DataFrame:
 
     datos = get_paginas(enfermedad)
     df = get_registros(datos)
-    df_valido = df[columnas_validas]
+    df_valido = df[columnas_validas] #con todos los datos recogidos y los nuevos campos construidos, nos quedamos con los que nos interesan
     return df_valido
     
     
