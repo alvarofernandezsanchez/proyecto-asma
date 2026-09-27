@@ -29,12 +29,22 @@ def cocinar_nomenclator(df_nomenclator: pd.DataFrame) -> pd.DataFrame: #lo dejam
         "Tratamiento de larga duración" : "tratamiento_larga_duracion",
         "Especial control médico" : "especial_control_medico",
     })
-    df["cn"] = df["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
     return df
+
+def add_variables_nomenclator(df: pd.DataFrame) -> pd.DataFrame:
+    df_nomenclator = descargar_nomenclator()
+    df_nomenclator_amoldado = cocinar_nomenclator(df_nomenclator)
+    
+    #(lineas metida con ia), con esto nos aseguramos de que la conversion se haga bien = el merge no falle
+    df["cn"] = df["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
+    df_nomenclator_amoldado["cn"] = df_nomenclator_amoldado["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True) 
+    
+    df_final = df.merge(df_nomenclator_amoldado, on="cn", how="left")
+    return df_final
+
 
 if __name__ == "__main__":
     df_medicamentos = pd.read_excel("datos_finales.xlsx")
-    df_medicamentos["cn"] = df_medicamentos["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
     df_nomenclator = descargar_nomenclator()
 
     #print(df_nomenclator.columns.tolist()) #verificamos que las 6 columnas estan ok

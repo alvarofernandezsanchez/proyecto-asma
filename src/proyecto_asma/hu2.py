@@ -1,5 +1,6 @@
 import pandas as pd
 from bs4 import BeautifulSoup
+import re
 import requests
 
 def get_n_palabras(response):
@@ -24,12 +25,11 @@ def get_n_tablas(response):
 
 def get_n_graves(response):
     soup = BeautifulSoup(response.text, "html.parser")
-    texto_completo = soup.get_text(" ", strip=True) #cogemos el texto completo de toda la pagina, no hace falta filtrar
-    palabras = texto_completo.lower().split()
-    # no hago un count("grave") porque puede incluir palabras como "gravedad"
-    palabras_grave = [p for p in palabras if p == "grave" or p == "graves"]
+    texto_completo = soup.get_text(" ", strip=True).lower() #cogemos el texto completo de toda la pagina, no hace falta filtrar
     
-    return len(palabras_grave)
+    # no hago un count("grave") porque puede incluir palabras como "gravedad"
+    # usamos expresion regular para identificar todos los "grave" y "graves" siga lo que siga despues (como signos de puntuacion)
+    return len(re.findall(r'\bgraves?\b', texto_completo))
 
 
 def get_metricas(urls):
@@ -51,8 +51,21 @@ def get_metricas(urls):
         
     return n_palabras, n_tablas, n_grave
 
+def add_metricas(df: pd.DataFrame) -> pd.DataFrame:
+    urls = df["url_html_ficha_tecnica"]
+    n_palabras, n_tablas, n_grave = get_metricas(urls)
+    df_metricas = pd.DataFrame({
+        "n_palabras": n_palabras,
+        "n_tablas": n_tablas,
+        "n_graves": n_grave
+    })
+    df_final = pd.concat([df, df_metricas], axis=1)
+    return df_final
 
 
+
+
+      
 if __name__ == "__main__":
     df = pd.read_excel("datos.xlsx")
     urls = df["url_html_ficha_tecnica"]

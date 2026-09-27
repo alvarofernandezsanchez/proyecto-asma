@@ -72,7 +72,39 @@ def get_registros(datos: list) -> pd.DataFrame:
     df = pd.DataFrame(registros_registrados)
     return df
 
+def get_datos(enfermedad = "asma") -> pd.DataFrame:
+    columnas_validas = [
+        "nregistro",
+        "nombre",
+        "pactivos",
+        "labtitular",
+        "labcomercializador",
+        "cn",
+        "dosis",
+        "formaFarmaceuticaSimplificada",
+        "estado_aut",
+        "estado_rev",
+        "viasAdministracion",
+        "comerc",
+        "receta",
+        "generico",
+        "conduc",
+        "triangulo",
+        "huerfano",
+        "biosimilar",
+        "url_html_ficha_tecnica",
+        "url_foto_materiales",
+        "num_registros_atc",
+        "num_principios_activos",
+    ]
 
+    datos = get_paginas(enfermedad)
+    df = get_registros(datos)
+    df_valido = df[columnas_validas]
+    return df_valido
+    
+    
+    
 if __name__ == "__main__":
     columnas_validas = [
         "nregistro",
