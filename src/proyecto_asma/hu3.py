@@ -16,7 +16,7 @@ COLUMNAS = [
 def descargar_nomenclator() -> pd.DataFrame:
     response = requests.get(URL)
     response.raise_for_status()
-    df = pd.read_excel(io.BytesIO(response.content), engine="xlrd") #este engine sirve para que excels mas antiguos se puedan leer con pandas
+    df = pd.read_excel(io.BytesIO(response.content))
     return df
 
 def cocinar_nomenclator(df_nomenclator: pd.DataFrame) -> pd.DataFrame: #lo dejamos preparado
@@ -29,23 +29,18 @@ def cocinar_nomenclator(df_nomenclator: pd.DataFrame) -> pd.DataFrame: #lo dejam
         "Tratamiento de larga duración" : "tratamiento_larga_duracion",
         "Especial control médico" : "especial_control_medico",
     })
-
-    df["cn"] = df["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True) #(linea metida con ia), con esto nos aseguramos de que la conversion se haga bien = el merge no falle
+    df["cn"] = df["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
     return df
 
 if __name__ == "__main__":
     df_medicamentos = pd.read_excel("datos_finales.xlsx")
     df_medicamentos["cn"] = df_medicamentos["cn"].astype(str).str.strip().str.replace(r"\.0$", "", regex=True)
-
-
     df_nomenclator = descargar_nomenclator()
 
     #print(df_nomenclator.columns.tolist()) #verificamos que las 6 columnas estan ok
 
     df_nomenclator_amoldado = cocinar_nomenclator(df_nomenclator)
-    df_final = df_medicamentos.merge(df_nomenclator_amoldado)
-
-    print(df_final.head())
+    df_final = df_medicamentos.merge(df_nomenclator_amoldado, on="cn", how="left")
     print(f"Medicamentos sin cruce en el nomenclator: {df_final['pvp_iva'].isna().sum()}")
 
     df_final.to_excel("datos_final_pro.xlsx", index=False)
