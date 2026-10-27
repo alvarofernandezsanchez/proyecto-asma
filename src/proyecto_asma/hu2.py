@@ -6,7 +6,7 @@ import requests
 def get_n_palabras(response):
     soup = BeautifulSoup(response.text, "html.parser")
     
-    h2 = soup.find_all("h2") #buscamos todos los <h2> ya que es el titulo de la sección
+    h2 = soup.find_all ("h2") #buscamos todos los <h2> ya que es el titulo de la sección
     
     for h in h2:
         if h.get_text(strip=True).startswith("4.4"): #si el titulo empieza por 4.4, la guardamos
