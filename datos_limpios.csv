@@ -1,0 +1,393 @@
+labcomercializador,dosis,formaFarmaceuticaSimplificada,viasAdministracion,comerc,generico,conduc,triangulo,biosimilar,num_principios_activos,n_palabras,n_tablas,n_graves,estado_nomenclator,pvp_iva,tratamiento_larga_duracion
+Laboratorios Rubio S.A.,373.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1293,1,5,No disponible,22.258534201954397,
+Sandoz Farmaceutica S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1543,5,16,ALTA,41.28,NO
+Sandoz Farmaceutica S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1543,5,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,0.1,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1435,7,20,ALTA,41.28,NO
+Glaxosmithkline S.A.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1436,7,20,ALTA,41.28,NO
+Glaxosmithkline S.A.,0.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1436,7,20,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Organon Salud S.L.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1422,1,2,No disponible,22.258534201954397,
+Organon Salud S.L.,400.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1423,1,2,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,873,1,2,ALTA,3.5,SI
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1075,4,10,ALTA,29.58,SI
+Glaxosmithkline S.A.,0.294,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1172,4,12,ALTA,29.58,SI
+Laboratorios Gebro Pharma S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,946,4,10,ALTA,41.28,NO
+Laboratorios Gebro Pharma S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,946,4,10,ALTA,41.28,NO
+Novartis Farmaceutica S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,946,4,10,ALTA,41.28,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1072,5,11,ALTA,29.58,SI
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1170,4,12,ALTA,29.58,SI
+Cipla Europe Nv Sucursal En Espana,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1462,1,15,ALTA,31.36,NO
+Cipla Europe Nv Sucursal En Espana,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1260,1,9,ALTA,31.36,NO
+Chiesi España S.A.U.,12.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,694,1,9,ALTA,37.7,SI
+Laboratorio Aldo Union S.L.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,1227,2,6,ALTA,6.15,SI
+Laboratorio Aldo Union S.L.,0.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,1227,2,6,ALTA,12.3,SI
+Laboratorio Aldo Union S.L.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,504,0,1,ALTA,12.3,SI
+Laboratorio Aldo Union S.L.,0.04,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,486,0,2,ALTA,13.33,SI
+Laboratorio Aldo Union S.L.,0.01,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,486,0,1,ALTA,7.56,SI
+Laboratorios Cinfa S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,410,0,3,ALTA,2.67,SI
+Laboratorios Cinfa S.A.,6.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,410,0,3,ALTA,2.25,SI
+Sandoz Farmaceutica S.A.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,388,1,3,BAJA GENERAL,2.67,SI
+Sandoz Farmaceutica S.A.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,388,1,3,BAJA GENERAL,2.5,SI
+Laboratorio Stada S.L.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,470,1,4,BAJA GENERAL,2.67,SI
+Laboratorio Stada S.L.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,470,1,4,BAJA GENERAL,2.5,SI
+Glaxosmithkline S.A.,100.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,True,False,1,372,7,8,No disponible,22.258534201954397,
+Astrazeneca Farmaceutica Spain S.A.,30.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,335,8,6,No disponible,22.258534201954397,
+Astrazeneca Farmaceutica Spain S.A.,30.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,335,8,6,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1113,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1113,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,6.49,NO
+Mundipharma Pharmaceuticals S.L.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1639,1,11,ALTA,45.79,NO
+Mundipharma Pharmaceuticals S.L.,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1637,1,11,ALTA,66.78,NO
+Mundipharma Pharmaceuticals S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1637,1,11,ALTA,32.86,NO
+Bexal Farmaceutica S.A.,12.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,945,3,20,ALTA,22.62,SI
+Chiesi España S.A.U.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1363,6,20,ALTA,40.32,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1144,2,15,ALTA,40.32,NO
+Chiesi España S.A.U.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1461,2,15,ALTA,40.32,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1249,2,9,ALTA,40.32,NO
+Laboratorio Stada S.L.,12.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,935,1,20,ALTA,22.54,SI
+Chiesi España S.A.U.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1363,6,20,ALTA,40.32,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1144,2,15,ALTA,40.32,NO
+Chiesi España S.A.U.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1462,2,15,ALTA,40.32,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1249,2,9,ALTA,40.32,NO
+Laboratorios Menarini S.A.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1696,2,14,ALTA,39.56,NO
+Laboratorios Menarini S.A.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1652,1,11,ALTA,39.56,NO
+Laboratorios Normon S.A.,100.0,INYECTABLE,VÍA INTRAMUSCULAR,True,True,False,False,False,1,2514,3,10,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1114,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,0.05,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1116,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1433,6,20,ALTA,41.28,NO
+Glaxosmithkline S.A.,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1433,10,29,ALTA,41.28,NO
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1433,10,29,ALTA,41.28,NO
+Glaxosmithkline S.A.,,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1398,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1070,4,11,ALTA,29.58,SI
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1170,4,12,ALTA,29.58,SI
+Laboratorios Normon S.A.,20.0,INYECTABLE,VÍA INTRAMUSCULAR,True,True,False,False,False,1,1457,0,12,ALTA,1.37,NO
+Laboratorios Normon S.A.,40.0,INYECTABLE,VÍA INTRAMUSCULAR,True,True,False,False,False,1,1457,0,12,ALTA,1.48,NO
+Novartis Farmaceutica S.A.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,1250,2,3,SUSPENSION TEMPORAL GENERAL,7.35,SI
+Novartis Farmaceutica S.A.,400.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,1250,2,3,SUSPENSION TEMPORAL GENERAL,14.71,SI
+Laboratorios Cinfa S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,376,2,3,No disponible,22.258534201954397,
+Laboratorios Cinfa S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,419,2,6,No disponible,22.258534201954397,
+Laboratorios Cinfa S.A.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,True,False,False,False,1,371,2,5,No disponible,22.258534201954397,
+Laboratorios Cinfa S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,419,2,6,No disponible,22.258534201954397,
+Laboratorios Normon S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,380,2,3,ALTA,21.06,NO
+Laboratorios Normon S.A.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,True,False,False,False,1,368,2,5,ALTA,16.84,NO
+Laboratorios Normon S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,398,2,5,ALTA,21.06,NO
+Sandoz Farmaceutica S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,377,3,3,ALTA,21.06,NO
+Sandoz Farmaceutica S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,458,3,5,ALTA,16.84,NO
+Sandoz Farmaceutica S.A.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,False,True,False,False,False,1,383,3,5,BAJA POR NO COMERCIALIZAR,16.84,NO
+Sandoz Farmaceutica S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,457,3,5,ALTA,21.06,NO
+Laboratorio Stada S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,374,3,3,ALTA,21.06,NO
+Laboratorio Stada S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,362,3,5,ALTA,16.84,NO
+Laboratorio Stada S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,362,3,5,ALTA,21.06,NO
+Tecnimede España Industria Farmaceutica S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,366,2,3,ALTA,21.06,NO
+Viatris Pharmaceuticals S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,347,2,3,ALTA,21.06,NO
+Viatris Pharmaceuticals S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,390,2,4,ALTA,16.84,NO
+Viatris Pharmaceuticals S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,391,2,4,ALTA,21.06,NO
+Glaxosmithkline S.A.,100.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,411,11,57,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,100.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,413,11,57,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,40.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,411,11,57,No disponible,22.258534201954397,
+Laboratorio Beta S.A.,4.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,686,1,5,ALTA,11.3,SI
+Laboratorio Beta S.A.,9.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,685,1,5,ALTA,22.62,SI
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1434,8,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1433,8,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1433,8,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1402,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1402,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1402,4,16,ALTA,41.28,NO
+Laboratorios Cinfa S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,960,0,8,ALTA,2.5,SI
+Laboratorios Cinfa S.A.,2.5,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,960,0,8,ALTA,1.89,SI
+Laboratorios Cinfa S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,960,0,8,ALTA,3.76,SI
+Laboratorios Cinfa S.A.,5.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,960,0,8,ALTA,1.95,SI
+Astrazeneca Farmaceutica Spain S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1072,3,6,ALTA,12.25,SI
+Astrazeneca Farmaceutica Spain S.A.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1072,3,6,ALTA,12.25,SI
+Astrazeneca Farmaceutica Spain S.A.,400.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1072,3,6,ALTA,24.52,SI
+Astrazeneca Farmaceutica Spain S.A.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,864,2,9,No disponible,22.258534201954397,
+Astrazeneca Farmaceutica Spain S.A.,0.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,865,2,9,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,184.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,785,3,19,ALTA,44.8,NO
+Glaxosmithkline S.A.,92.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,796,4,28,ALTA,44.8,NO
+Faes Farma S.A.,184.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,785,3,19,ALTA,44.8,NO
+Faes Farma S.A.,92.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,796,4,28,ALTA,44.8,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,1319,1,4,BAJA GENERAL,22.35,SI
+Laboratorio Tau S.A.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1631,1,11,ALTA,39.56,NO
+Laboratorio Tau S.A.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1717,2,14,ALTA,39.56,NO
+Laboratorio Tau S.A.,80.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1545,2,13,ALTA,39.56,NO
+Laboratorio Aldo Union S.L.,0.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,758,0,6,ALTA,18.37,SI
+Laboratorio Aldo Union S.L.,0.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,758,0,6,ALTA,26.3,SI
+Laboratorio Aldo Union S.L.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,559,0,11,ALTA,4.71,SI
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1434,6,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1434,6,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1434,6,20,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1397,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1397,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1397,4,16,ALTA,41.28,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1072,4,11,ALTA,29.58,SI
+Glaxosmithkline S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1170,4,12,ALTA,29.58,SI
+Organon Salud S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,379,2,3,ALTA,21.06,NO
+Organon Salud S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,False,False,False,False,1,448,2,5,ALTA,16.84,NO
+Organon Salud S.L.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,False,False,False,False,False,1,372,2,5,ALTA,16.84,NO
+Organon Salud S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,False,False,False,False,1,457,2,5,ALTA,21.06,NO
+Glenmark Farmaceutica S.L.U,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,804,1,1,BAJA POR NO COMERCIALIZAR,6.99,SI
+Glenmark Farmaceutica S.L.U,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,805,1,1,BAJA POR NO COMERCIALIZAR,13.99,SI
+Glenmark Farmaceutica S.L.U,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,803,1,0,BAJA POR NO COMERCIALIZAR,17.48,SI
+Glenmark Farmaceutica S.L.U,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,805,1,1,BAJA POR NO COMERCIALIZAR,3.5,SI
+Boehringer Ingelheim Espana S.A.,2.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,460,8,19,ALTA,39.25,NO
+Astrazeneca Farmaceutica Spain S.A.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1632,1,11,ALTA,39.56,NO
+Astrazeneca Farmaceutica Spain S.A.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1716,2,14,ALTA,39.56,NO
+Astrazeneca Farmaceutica Spain S.A.,80.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1541,2,13,ALTA,39.56,NO
+Astrazeneca Farmaceutica Spain S.A.,80.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1513,2,14,ALTA,19.78,NO
+Laboratorio Lailan S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,523,1,7,ALTA,6.93,SI
+Astrazeneca Farmaceutica Spain S.A.,210.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,True,False,1,604,8,33,No disponible,22.258534201954397,
+Astrazeneca Farmaceutica Spain S.A.,210.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,True,False,1,604,8,33,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1113,4,8,ALTA,6.49,NO
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1115,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1117,4,8,ALTA,31.47,NO
+Glaxosmithkline S.A.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1117,4,8,ALTA,6.49,NO
+Euromed Pharma Spain S.L.,40.0,INYECTABLE,VÍA INTRAARTICULAR,True,False,False,False,False,1,1918,1,16,BAJA GENERAL,2.39,NO
+Chiesi España S.A.U.,172.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,3,1152,3,24,ALTA,72.59,NO
+Chiesi España S.A.U.,87.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,3,1250,3,33,ALTA,72.59,NO
+Chiesi España S.A.U.,88.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,3,1214,1,26,ALTA,72.59,NO
+Glaxosmithkline S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,759,0,7,ALTA,4.09,SI
+Glaxosmithkline S.A.,2.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,False,False,False,1,797,0,9,ALTA,2.5,SI
+Glaxosmithkline S.A.,500.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,943,0,6,ALTA,2.12,SI
+Novartis Farmaceutica S.A.,150.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,870,7,25,No disponible,22.258534201954397,
+Novartis Farmaceutica S.A.,75.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,867,7,25,No disponible,22.258534201954397,
+Laboratorios Menarini S.A.,1.0,SOLUCION/SUSPENSION GOTAS ORALES,VÍA ORAL,True,False,False,False,False,1,640,1,5,ALTA,3.37,SI
+Laboratorios Menarini S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,640,1,5,ALTA,3.42,SI
+Laboratorios Menarini S.A.,6.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,640,1,5,ALTA,2.5,SI
+Laboratorios Gebro Pharma S.A.,114.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,3,1059,4,11,ALTA,72.68,NO
+Alk Abello S.A.,12.0,COMPRIMIDO BUCODISPERSABLE/LIOTAB,VÍA SUBLINGUAL,True,False,False,False,False,2,685,7,7,No disponible,22.258534201954397,
+Laboratorios Rubio S.A.,75.0,INYECTABLE,VÍA INTRAARTICULAR,True,False,False,False,False,1,1293,1,5,No disponible,22.258534201954397,
+B Braun Medical S.A.,1.0,INYECTABLE,VÍA INTRACARDIACA,True,False,False,False,False,1,531,1,7,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,,INYECTABLE,VÍA INTRACARDIACA,True,False,False,False,False,1,603,0,7,ALTA,5.04,NO
+Laboratorio Aldo Union S.L.,0.0482,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,False,False,False,1,608,0,8,ALTA,2.06,SI
+Laboratorio Aldo Union S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1524,4,17,No disponible,22.258534201954397,
+Zentiva Spain S.L.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,993,1,9,ALTA,49.17,NO
+Zentiva Spain S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1386,6,14,ALTA,41.28,NO
+Zentiva Spain S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1386,6,14,ALTA,41.28,NO
+Zentiva Spain S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1585,7,18,ALTA,41.28,NO
+Cipla Europe N.V.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1552,6,19,No disponible,22.258534201954397,
+Cipla Europe N.V.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1552,6,19,No disponible,22.258534201954397,
+Laboratorios Menarini S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,938,4,10,ALTA,41.28,NO
+Laboratorios Menarini S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,938,4,10,ALTA,41.28,NO
+Laboratorios Menarini S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,938,5,10,ALTA,41.28,NO
+Laboratorio Lailan S.A.,10.0,COMPRIMIDO,VÍA ORAL,False,False,False,False,False,1,538,1,6,BAJA GENERAL,9.99,SI
+Laboratorio Aldo Union S.L.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,913,1,3,ALTA,6.99,SI
+Laboratorio Aldo Union S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,913,1,3,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,0.5,SOLUCION/SUSPENSION GOTAS ORALES,VÍA ORAL,True,True,False,False,False,1,1907,0,9,No disponible,22.258534201954397,
+Laboratorios Bial S.A.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1915,2,15,ALTA,39.56,NO
+Laboratorios Bial S.A.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1890,1,12,ALTA,39.56,NO
+Mabo Farma S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1514,1,16,No disponible,22.258534201954397,
+Mabo Farma S.A.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1269,1,8,No disponible,22.258534201954397,
+Mabo Farma S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1508,4,16,No disponible,22.258534201954397,
+Mabo Farma S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1508,4,16,No disponible,22.258534201954397,
+Mabo Farma S.A.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1508,4,16,No disponible,22.258534201954397,
+Laboratorios Bial S.A.,12.75,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1518,4,6,BAJA GENERAL,41.28,NO
+Laboratorios Bial S.A.,12.75,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1518,4,6,BAJA GENERAL,41.28,NO
+Laboratorio Aldo Union S.L.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,865,2,9,ALTA,5.99,SI
+Laboratorio Aldo Union S.L.,0.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,865,2,9,ALTA,12.0,SI
+Orion Pharma S.L.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,1030,1,4,ALTA,12.25,SI
+Orion Pharma S.L.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,1030,1,4,ALTA,24.52,SI
+Orion Pharma S.L.,400.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,1030,1,4,ALTA,24.52,SI
+"Laboratorio Reig Jofre, S.A.",50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1283,1,8,ALTA,7.56,SI
+"Laboratorio Reig Jofre, S.A.",200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1283,1,8,ALTA,11.11,SI
+Cipla Europe Nv Sucursal En Espana,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1731,2,14,ALTA,19.78,NO
+Cipla Europe Nv Sucursal En Espana,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1674,1,11,ALTA,39.56,NO
+Orion Pharma S.L.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1544,2,14,ALTA,39.56,NO
+Orion Pharma S.L.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1508,1,11,ALTA,39.56,NO
+Teva Pharma S.L.U.,100.0,INYECTABLE PERFUSION,VÍA INTRAVENOSA,True,False,False,False,False,1,275,5,8,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,2.5,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,929,1,4,ALTA,1.89,SI
+Laboratorios Ern S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,929,1,4,ALTA,3.76,SI
+Laboratorios Ern S.A.,5.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,929,1,4,ALTA,1.95,SI
+Faes Farma S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,1645,1,8,No disponible,22.258534201954397,
+Faes Farma S.A.,6.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,1645,1,8,No disponible,22.258534201954397,
+Laboratorios Alter S.A.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,392,0,2,BAJA GENERAL,2.67,SI
+Laboratorios Alter S.A.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,392,0,2,BAJA GENERAL,2.5,SI
+Lacer S.A.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,1639,1,10,BAJA POR NO COMERCIALIZAR,2.67,SI
+Lacer S.A.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,1723,1,10,BAJA POR NO COMERCIALIZAR,2.5,SI
+Kern Pharma S.L.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,394,0,2,BAJA GENERAL,2.67,SI
+Kern Pharma S.L.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,394,0,2,BAJA GENERAL,2.5,SI
+Towa Pharmaceutical S.A.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,397,0,2,BAJA POR NO COMERCIALIZAR,2.67,SI
+Towa Pharmaceutical S.A.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,397,0,2,SUSPENSION TEMPORAL GENERAL,2.25,SI
+Sun Pharma Laboratorios S.L.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,1296,0,7,BAJA GENERAL,2.67,SI
+Sun Pharma Laboratorios S.L.,6.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,1297,0,7,BAJA GENERAL,2.5,SI
+Tarbis Farma S.L.,30.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,392,0,2,BAJA POR NO COMERCIALIZAR,2.67,SI
+Industria Quimica Y Farmaceutica Vir S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,365,0,2,ALTA,2.67,SI
+Industria Quimica Y Farmaceutica Vir S.A.,6.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,365,0,2,ALTA,2.25,SI
+Mabo Farma S.A.,4.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1519,1,20,ALTA,9.93,NO
+Mabo Farma S.A.,8.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1520,1,20,ALTA,19.17,NO
+Ever Pharma Therapeutics Spain S.L.,4.0,INYECTABLE,VÍA INTRAARTICULAR,True,True,False,False,False,1,1496,4,17,No disponible,22.258534201954397,
+Kern Pharma S.L.,1.0,INYECTABLE,VÍA INTRAARTICULAR,True,True,False,False,False,1,736,2,3,No disponible,22.258534201954397,
+Medochemie Iberia S.A. Sucursal En Espana,4.0,INYECTABLE,VÍA INTRAARTICULAR,True,True,False,False,False,1,1281,1,16,No disponible,22.258534201954397,
+Orbit Pharma Limited,1.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,988,1,14,No disponible,22.258534201954397,
+Orbit Pharma Limited,4.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,988,1,14,No disponible,22.258534201954397,
+Krka Farmaceutica S.L.,4.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1536,2,21,ALTA,9.93,NO
+Krka Farmaceutica S.L.,8.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1536,2,21,ALTA,19.17,NO
+Faes Farma S.A.,22.75,SOLUCION/SUSPENSION GOTAS ORALES,VÍA ORAL,True,False,False,False,False,1,1791,1,9,ALTA,3.37,SI
+Faes Farma S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1641,1,8,ALTA,2.67,SI
+Faes Farma S.A.,6.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1641,1,8,ALTA,2.25,SI
+Teva Pharma S.L.U.,160.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1917,2,15,ALTA,39.56,NO
+Teva Pharma S.L.U.,320.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1890,1,12,ALTA,39.56,NO
+Sanofi Aventis S.A.,200.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,777,23,78,No disponible,22.258534201954397,
+Sanofi Aventis S.A.,200.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,777,23,79,No disponible,22.258534201954397,
+Sanofi Aventis S.A.,300.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,777,43,105,No disponible,22.258534201954397,
+Sanofi Aventis S.A.,300.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,False,False,1,777,43,106,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,13,0,3,No disponible,22.258534201954397,
+Tora Laboratories S.L.U.,5.33,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,True,False,False,1,510,1,2,ALTA,2.95,SI
+Laboratorios Menarini S.A.,114.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,3,1051,2,11,ALTA,72.68,NO
+Laboratorios Ern S.A.,13.3,SOLUCION/SUSPENSION GOTAS ORALES,VÍA ORAL,True,False,False,False,False,1,1219,2,7,ALTA,4.04,SI
+Laboratorios Farmaceuticos Rovi S.A.,200.0,INYECTABLE,VÍA INTRAVENOSA,False,False,False,False,False,1,277,3,5,BAJA GENERAL,3.12,NO
+Glaxosmithkline S.A.,100.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,True,False,1,372,7,8,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,1116,4,8,No disponible,22.258534201954397,
+Orion Pharma S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1562,5,17,ALTA,41.28,NO
+Laboratorio Aldo Union S.L.,0.25,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1079,1,5,ALTA,10.49,NO
+Laboratorio Aldo Union S.L.,1.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1079,1,5,ALTA,41.96,NO
+Viatris Pharmaceuticals S.L.,12.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,846,1,9,No disponible,22.258534201954397,
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1292,2,16,No disponible,22.258534201954397,
+Laboratorio Aldo Union S.L.,12.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,True,False,False,False,1,705,1,9,ALTA,22.54,SI
+Laboratorios Ern S.A.,1.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,907,1,14,ALTA,4.34,NO
+Laboratorios Ern S.A.,4.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,907,1,14,ALTA,9.93,NO
+Laboratorios Ern S.A.,4.0,INYECTABLE,VÍA INTRAARTICULAR,True,False,False,False,False,1,1370,1,6,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,40.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1370,1,6,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,8.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,907,1,14,ALTA,19.17,NO
+Chiesi España S.A.U.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1292,2,16,No disponible,22.258534201954397,
+Pharmis Biofarmaceutica S.L.,100.0,INYECTABLE,VÍA INTRAMUSCULAR,True,True,False,False,False,1,2558,3,10,No disponible,22.258534201954397,
+Cipla Europe Nv Sucursal En Espana,125.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1583,1,7,ALTA,15.74,NO
+Cipla Europe Nv Sucursal En Espana,250.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1583,1,7,ALTA,31.47,NO
+Viatris Pharmaceuticals S.L.U.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1631,4,14,No disponible,22.258534201954397,
+Viatris Pharmaceuticals S.L.U.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1631,4,14,No disponible,22.258534201954397,
+Kern Pharma S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1586,6,19,ALTA,41.28,NO
+Kern Pharma S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1587,6,19,ALTA,41.28,NO
+Laboratorios Ern S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1461,2,15,ALTA,31.36,NO
+Orion Pharma S.L.,16.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,2715,2,6,No disponible,22.258534201954397,
+Orion Pharma S.L.,4.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,2715,2,6,No disponible,22.258534201954397,
+Krka Farmaceutica S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,375,3,3,ALTA,21.06,NO
+Krka Farmaceutica S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,402,3,5,ALTA,16.84,NO
+Krka Farmaceutica S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,402,3,5,ALTA,21.06,NO
+Accord Healthcare S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,380,61,3,BAJA POR NO COMERCIALIZAR,21.06,NO
+Accord Healthcare S.L.U.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,368,2,5,BAJA GENERAL,16.84,NO
+Accord Healthcare S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,368,2,5,BAJA GENERAL,21.06,NO
+Almus Farmaceutica S.A.U.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,373,3,3,ALTA,21.06,NO
+Laboratorios Alter S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,366,3,3,ALTA,21.06,NO
+Laboratorios Alter S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,378,4,5,ALTA,16.84,NO
+Laboratorios Alter S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,377,3,5,ALTA,21.06,NO
+"Aurovitas Spain, S.A.U.",10.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,354,1,2,BAJA GENERAL,21.06,NO
+Farmalider S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,395,1,3,ALTA,21.06,NO
+Farmalider S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,353,1,5,ALTA,16.84,NO
+Farmalider S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,354,1,5,ALTA,21.06,NO
+"Aurovitas Spain, S.A.U.",4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,False,True,False,False,False,1,335,2,4,BAJA GENERAL,16.84,NO
+"Aurovitas Spain, S.A.U.",10.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,355,2,2,BAJA GENERAL,21.06,NO
+"Aurovitas Spain, S.A.U.",4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,True,False,False,False,1,348,3,5,ALTA,16.84,NO
+"Aurovitas Spain, S.A.U.",10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,385,3,3,ALTA,21.06,NO
+"Aurovitas Spain, S.A.U.",4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,386,3,5,ALTA,16.84,NO
+"Aurovitas Spain, S.A.U.",5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,390,3,4,ALTA,21.06,NO
+Laboratorios Combix S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,291,2,2,ALTA,21.06,NO
+Laboratorios Combix S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,276,1,4,ALTA,21.06,NO
+Kern Pharma S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,367,2,3,ALTA,21.06,NO
+Kern Pharma S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,348,2,5,ALTA,16.84,NO
+Kern Pharma S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,350,2,5,ALTA,21.06,NO
+Mabo Farma S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,374,3,3,ALTA,21.06,NO
+Mabo Farma S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,343,2,4,BAJA GENERAL,16.84,NO
+Mabo Farma S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,343,2,4,BAJA GENERAL,21.06,NO
+Laboratorios Normon S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,402,2,5,ALTA,16.84,NO
+Opko Health Spain S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,399,2,3,No disponible,22.258534201954397,
+Towa Pharmaceutical S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,365,2,3,ALTA,21.06,NO
+Towa Pharmaceutical S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,349,2,5,ALTA,16.84,NO
+Towa Pharmaceutical S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,349,2,5,ALTA,21.06,NO
+Neuraxpharm Spain S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,380,3,3,ALTA,21.06,NO
+Neuraxpharm Spain S.L.U.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,404,3,5,ALTA,16.84,NO
+Neuraxpharm Spain S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,404,3,5,ALTA,21.06,NO
+Teva Pharma S.L.U.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,False,True,False,False,False,1,368,2,5,BAJA GENERAL,16.84,NO
+Sun Pharma Laboratorios S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,375,2,3,ALTA,21.06,NO
+Tarbis Farma S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,371,2,3,ALTA,21.06,NO
+Tarbis Farma S.L.,10.0,COMPRIMIDO,VÍA ORAL,False,True,False,False,False,1,354,1,2,BAJA POR NO COMERCIALIZAR,21.06,NO
+Tarbis Farma S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,338,1,4,BAJA POR NO COMERCIALIZAR,16.84,NO
+Tarbis Farma S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,338,1,4,BAJA POR NO COMERCIALIZAR,21.06,NO
+Teva Pharma S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,366,3,3,ALTA,21.06,NO
+Teva Pharma S.L.U.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,405,2,5,ALTA,16.84,NO
+Teva Pharma S.L.U.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,True,False,False,False,1,367,3,5,ALTA,16.84,NO
+Teva Pharma S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,381,2,5,ALTA,21.06,NO
+Teva Pharma S.L.U.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,365,2,3,ALTA,21.06,NO
+Teva Pharma S.L.U.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,380,2,5,ALTA,16.84,NO
+Teva Pharma S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,381,2,5,ALTA,21.06,NO
+Aristo Pharma Iberia S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,371,1,3,ALTA,21.06,NO
+Aristo Pharma Iberia S.L.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,291,1,4,BAJA GENERAL,16.84,NO
+Aristo Pharma Iberia S.L.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,291,1,4,BAJA GENERAL,21.06,NO
+Industria Quimica Y Farmaceutica Vir S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,358,3,3,ALTA,21.06,NO
+Industria Quimica Y Farmaceutica Vir S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,378,4,5,ALTA,16.84,NO
+Industria Quimica Y Farmaceutica Vir S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,377,4,5,ALTA,21.06,NO
+Viso Farmaceutica S.L.U.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,360,2,4,No disponible,22.258534201954397,
+Viso Farmaceutica S.L.U.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,False,True,False,False,False,1,360,2,4,No disponible,22.258534201954397,
+Viatris Pharmaceuticals S.L.,200.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1339,1,4,No disponible,22.258534201954397,
+Viatris Pharmaceuticals S.L.,400.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1339,1,4,No disponible,22.258534201954397,
+Glaxosmithkline S.A.,100.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,False,False,1,411,10,58,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,150.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,True,True,1,843,7,25,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,150.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,True,True,1,843,7,25,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,300.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,True,True,1,843,7,25,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,300.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,True,True,1,843,7,25,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,75.0,INYECTABLE,VÍA SUBCUTÁNEA,True,False,False,True,True,1,822,7,25,No disponible,22.258534201954397,
+Celltrion Farmacéutica (España) S.L.,75.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,True,True,1,825,7,25,No disponible,22.258534201954397,
+Laboratorio Aldo Union S.L.,4.0,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,False,False,False,1,1393,0,8,ALTA,21.67,NO
+Laboratorios Alter S.A.,10.0,CAPSULA,VÍA ORAL,True,True,False,False,False,1,363,3,2,ALTA,21.06,NO
+Laboratorios Alter S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,367,3,3,ALTA,21.06,NO
+Laboratorios Alter S.A.,4.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,379,3,5,ALTA,16.84,NO
+Laboratorios Alter S.A.,5.0,COMPRIMIDO MASTICABLE,VÍA ORAL,True,True,False,False,False,1,378,3,4,ALTA,21.06,NO
+Laboratorios Rubio S.A.,10.0,COMPRIMIDO,VÍA ORAL,False,False,False,False,False,1,1252,0,9,BAJA GENERAL,2.5,SI
+Laboratorios Rubio S.A.,5.0,COMPRIMIDO,VÍA ORAL,False,False,False,False,False,1,1252,0,9,BAJA GENERAL,1.95,SI
+Laboratorios Rubio S.A.,50.0,COMPRIMIDO,VÍA ORAL,False,False,False,False,False,1,1252,0,9,BAJA GENERAL,6.28,SI
+Kern Pharma S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,964,1,4,ALTA,2.5,SI
+Kern Pharma S.L.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,964,1,4,ALTA,3.76,SI
+Kern Pharma S.L.,5.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,964,1,4,ALTA,1.95,SI
+Towa Pharmaceutical S.A.,10.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,958,1,3,ALTA,2.5,SI
+Towa Pharmaceutical S.A.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,958,1,3,ALTA,3.76,SI
+Towa Pharmaceutical S.A.,5.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,958,1,3,ALTA,1.95,SI
+Tarbis Farma S.L.,10.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,636,0,1,ALTA,2.5,SI
+Tarbis Farma S.L.,2.5,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,636,0,1,ALTA,1.89,SI
+Tarbis Farma S.L.,30.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,636,0,1,ALTA,3.76,SI
+Tarbis Farma S.L.,5.0,COMPRIMIDO,VÍA ORAL,True,True,False,False,False,1,636,0,1,ALTA,1.95,SI
+Diater Laboratorio De Diagnostico Y Aplicaciones Terapeuticas S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,477,4,0,ALTA,320.74,NO
+Mibe Pharma España S.L.U.,100.0,SUPOSITORIO,VÍA RECTAL,False,True,False,False,False,1,365,1,1,SUSPENSION TEMPORAL GENERAL,2.65,NO
+Glenmark Farmaceutica S.L.U,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,657,1,11,No disponible,22.258534201954397,
+Neutec Inhaler Ireland Limited,2.5,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,814,2,8,No disponible,22.258534201954397,
+Sandoz Farmaceutica S.A.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,581,1,8,BAJA GENERAL,4.09,SI
+Orion Pharma S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1565,5,17,No disponible,22.258534201954397,
+Cipla Europe Nv Sucursal En Espana,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1513,4,15,ALTA,41.28,NO
+Cipla Europe Nv Sucursal En Espana,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1513,4,15,ALTA,41.28,NO
+Cipla Europe Nv Sucursal En Espana,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1555,5,19,ALTA,41.28,NO
+Cipla Europe Nv Sucursal En Espana,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1555,5,19,ALTA,41.28,NO
+Qualitecfarma Regulatory & Business Strategies S.L.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1597,4,13,No disponible,22.258534201954397,
+Qualitecfarma Regulatory & Business Strategies S.L.,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,2,1595,4,13,No disponible,22.258534201954397,
+Teva Pharma S.L.U.,12.75,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1518,4,6,ALTA,41.28,NO
+Teva Pharma S.L.U.,12.75,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1518,4,6,ALTA,41.28,NO
+Cipla Europe Nv Sucursal En Espana,25.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,1215,5,12,ALTA,29.58,NO
+Pfizer S.L.,1.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1797,1,8,ALTA,14.11,NO
+Pfizer S.L.,125.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1797,1,8,ALTA,2.5,NO
+Pfizer S.L.,40.0,INYECTABLE,VÍA INTRAMUSCULAR,False,False,False,False,False,1,1525,1,7,No disponible,22.258534201954397,
+Pfizer S.L.,500.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1797,1,8,ALTA,7.06,NO
+Laboratorios Ern S.A.,0.03,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,False,False,False,2,194,1,1,No disponible,22.258534201954397,
+Laboratorios Ern S.A.,0.03,SOLUCIÓN/SUSPENSIÓN ORAL,VÍA ORAL,True,False,False,False,False,1,193,1,1,ALTA,4.14,SI
+Laboratorio Aldo Union S.L.,300.0,COMPRIMIDO LIBERACION MODIFICADA,VÍA ORAL,True,False,True,False,False,1,395,2,2,ALTA,5.03,SI
+Vegal Farmaceutica S.L.,100.0,COMPRIMIDO LIBERACION MODIFICADA,VÍA ORAL,True,False,True,False,False,1,379,1,2,ALTA,4.17,SI
+Vegal Farmaceutica S.L.,200.0,COMPRIMIDO LIBERACION MODIFICADA,VÍA ORAL,True,False,True,False,False,1,379,1,2,ALTA,4.54,SI
+Vegal Farmaceutica S.L.,300.0,COMPRIMIDO LIBERACION MODIFICADA,VÍA ORAL,True,False,True,False,False,1,379,1,2,ALTA,5.03,SI
+Laboratorios Fidia Farmaceutica S.L.,16.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1365,0,12,ALTA,12.21,SI
+Laboratorios Fidia Farmaceutica S.L.,20.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1459,0,12,ALTA,1.37,NO
+Laboratorios Fidia Farmaceutica S.L.,250.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1459,0,12,ALTA,3.53,NO
+Laboratorios Fidia Farmaceutica S.L.,4.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1363,0,12,ALTA,2.12,SI
+Laboratorios Fidia Farmaceutica S.L.,40.0,COMPRIMIDO,VÍA ORAL,True,False,False,False,False,1,1365,0,12,ALTA,19.09,SI
+Laboratorios Fidia Farmaceutica S.L.,40.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1459,0,12,ALTA,1.48,NO
+Laboratorios Fidia Farmaceutica S.L.,8.0,INYECTABLE,VÍA INTRAMUSCULAR,True,False,False,False,False,1,1459,0,12,ALTA,1.2,NO
+Mylan Pharmaceuticals S.L.,100.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,False,False,False,False,False,1,725,1,10,No disponible,22.258534201954397,
+Laboratorio Aldo Union S.L.,0.24,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,1,561,0,11,ALTA,6.21,SI
+Laboratorio Aldo Union S.L.,50.0,INHALACIÓN PULMONAR,VÍA INHALATORIA,True,False,False,False,False,2,1104,1,7,ALTA,9.59,NO
+Glaxosmithkline S.A.,4.0,COMPRIMIDO,VÍA ORAL,False,False,False,False,False,1,678,0,8,BAJA GENERAL,2.81,SI
+Novartis Farmaceutica S.A.,150.0,INYECTABLE,VÍA SUBCUTÁNEA,False,False,False,False,False,1,755,9,24,No disponible,22.258534201954397,
