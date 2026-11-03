@@ -1,6 +1,7 @@
 import mysql.connector
 from dotenv import load_dotenv
 import os
+import pandas as pd
 
 create_table_query = """
     CREATE DATABASE IF NOT EXISTS medicamentos_asma;
@@ -56,3 +57,36 @@ cursor = conexion.cursor()
 print("Conexión a la base de datos establecida correctamente.")
 cursor.execute(create_table_query)
 print("Base de datos y tabla creadas correctamente.")
+
+
+file = pd.read_csv("../../datos_completos_clusters.csv")
+
+for index, row in file.iterrows():
+    insert_query = """
+        INSERT INTO medicamentos (
+            nregistro, nombre, pactivos, labtitular, labcomercializador, cn, dosis,
+            formaFarmaceuticaSimplificada, estado_aut, estado_rev, viasAdministracion,
+            comerc, receta, generico, conduc, triangulo, huerfano, biosimilar,
+            url_html_ficha_tecnica, url_foto_materiales, num_registros_atc,
+            num_principios_activos, n_palabras, n_tablas, n_graves,
+            estado_nomenclator, pvp_iva, precio_referencia,
+            tratamiento_larga_duracion, especial_control_medico, cluster
+        ) VALUES (
+            %(nregistro)s, %(nombre)s, %(pactivos)s, %(labtitular)s,
+            %(labcomercializador)s, %(cn)s, %(dosis)s,
+            %(formaFarmaceuticaSimplificada)s, %(estado_aut)s,
+            %(estado_rev)s, %(viasAdministracion)s,
+            %(comerc)s, %(receta)s, %(generico)s,
+            %(conduc)s, %(triangulo)s, %(huerfano)s,
+            %(biosimilar)s, %(url_html_ficha_tecnica)s,
+            %(url_foto_materiales)s, %(num_registros_atc)s,
+            %(num_principios_activos)s, %(n_palabras)s,
+            %(n_tablas)s, %(n_graves)s,
+            %(estado_nomenclator)s, %(pvp_iva)s,
+            %(precio_referencia)s,
+            %(tratamiento_larga_duracion)s,
+            %(especial_control_medico)s,
+            %(cluster)s
+        );
+    """
+    cursor.execute(insert_query, row.to_dict())
