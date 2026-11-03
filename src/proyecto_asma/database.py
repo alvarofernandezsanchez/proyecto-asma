@@ -44,9 +44,15 @@ create_table_query = """
 load_dotenv()
 password = os.getenv("DB_PASSWORD")
 
-conn = mysql.connector.connect(
-    host="localhost",
+conexion = mysql.connector.connect(
+    host="127.0.0.1",
+    port=3306,
     user="root",
     password=password,
-    database="MUIAAP"
+    connection_timeout=10
 )
+
+cursor = conexion.cursor()
+print("Conexión a la base de datos establecida correctamente.")
+cursor.execute(create_table_query)
+print("Base de datos y tabla creadas correctamente.")
