@@ -91,7 +91,7 @@ try:
         )
     """
 
-    datos = list(df.itertuples(index=False, name=None))
+    datos = df.values.tolist()
 
     cursor.executemany(insert_query, datos)
 
@@ -103,7 +103,7 @@ except Exception as e:
     conexion.rollback()
     print("Error:", e)
 
-finally:
-    cursor.close()
-    conexion.close()
-    print("Conexión cerrada.")
+
+cursor.close()
+conexion.close()
+print("Conexión cerrada.")
