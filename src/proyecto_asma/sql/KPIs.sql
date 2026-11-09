@@ -1,6 +1,5 @@
-USE medicamentos_asma;
+CREATE OR REPLACE VIEW medicamentos_asma.vista_kpis AS
 
-CREATE OR REPLACE VIEW vista_kpis AS
 SELECT
     nregistro,
     nombre,
@@ -16,32 +15,22 @@ SELECT
 
     pvp_iva - precio_referencia AS margen_economico,
 
-    pvp_iva / num_principios_activos AS precio_por_principio,
+    pvp_iva / NULLIF(num_principios_activos, 0) AS precio_por_principio,
 
-    AVG(pvp_iva) OVER (PARTITION BY cluster) AS precio_medio_cluster,
+    AVG(pvp_iva) OVER (
+        PARTITION BY cluster
+    ) AS precio_medio_cluster,
 
-    AVG(n_palabras) OVER (PARTITION BY cluster) AS palabras_medias_cluster,
+    AVG(n_palabras) OVER (
+        PARTITION BY cluster
+    ) AS palabras_medias_cluster,
 
-    ROW_NUMBER() OVER (
-        PARTITION BY formaFarmaceuticaSimplificada
-        ORDER BY pvp_iva DESC, nregistro
-    ) AS ranking_precio
+    CASE
+        WHEN pvp_iva IS NOT NULL
+        THEN ROW_NUMBER() OVER (
+            PARTITION BY formaFarmaceuticaSimplificada
+            ORDER BY pvp_iva DESC, nregistro
+        )
+    END AS ranking_precio
 
-FROM medicamentos;
-
-SELECT *
-FROM vista_kpis;
-
-USE medicamentos_asma;
-
-SELECT COUNT(*) AS total_medicamentos
-FROM vista_kpis;
-
-SHOW CREATE VIEW vista_kpis;
-
-SELECT
-    COUNT(*) AS total,
-    SUM(pvp_iva IS NULL) AS sin_pvp,
-    SUM(precio_referencia IS NULL) AS sin_referencia,
-    SUM(densidad_ficha IS NULL) AS sin_densidad
-FROM vista_kpis;
+FROM medicamentos_asma.medicamentos;
