@@ -97,8 +97,6 @@ try:
 
     conexion.commit()
 
-    print(f"Se han insertado {cursor.rowcount} medicamentos.")
-
 except Exception as e:
     conexion.rollback()
     print("Error:", e)
