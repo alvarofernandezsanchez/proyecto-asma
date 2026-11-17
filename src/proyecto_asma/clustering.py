@@ -4,8 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 
-
-logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def preparar_clustering(df: pd.DataFrame) -> pd.DataFrame:
     new_df = df.copy()
@@ -19,12 +18,12 @@ def preparar_clustering(df: pd.DataFrame) -> pd.DataFrame:
     return new_df
     
 def clustering(df: pd.DataFrame, n_clusters: int = 3) -> pd.DataFrame:
-    logging.info(f"Realizando clustering con {n_clusters} clusters sobre {len(df)} filas.")
+    logger.info("Realizando clustering con %d clusters sobre %d filas.", n_clusters, len(df))
     df_cleaned = preparar_clustering(df)
     kmeans = KMeans(n_clusters=n_clusters, random_state=42)
     df['cluster'] = kmeans.fit_predict(df_cleaned)
     silhouette = silhouette_score(df_cleaned, df['cluster'])
-    logging.info(f"Clustering completado. Silhouette: {silhouette:.2f}.")
+    logger.info(f"Clustering completado. Silhouette: {silhouette:.2f}.")
     return df
     
     

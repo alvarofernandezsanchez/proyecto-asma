@@ -3,18 +3,20 @@ import mysql.connector
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import logging
 
 # Cargar variables de entorno
 load_dotenv()
-import logging
-logging.basicConfig(level=logging.INFO)
+
+
+logger = logging.getLogger(__name__)
 
 
 
 def connect_to_database():
     load_dotenv()
     password = os.getenv("DB_PASSWORD")
-    logging.info("Conectando a MySQL en 127.0.0.1:3306.")
+    logger.info("Conectando a MySQL en 127.0.0.1:3306.")
 
     # Conectar con MySQL
     conexion = mysql.connector.connect(
@@ -24,7 +26,7 @@ def connect_to_database():
         password=password,
         connection_timeout=10
     )
-    logging.info("Conexión a la base de datos establecida correctamente.")
+    logger.info("Conexión a la base de datos establecida correctamente.")
     cursor = conexion.cursor()
     return conexion, cursor
 
@@ -70,13 +72,13 @@ def insert_sql(conexion, cursor, df):
             )
         """)
 
-        logging.info("Base de datos y tabla creadas correctamente.")
+        logger.info("Base de datos y tabla creadas correctamente.")
         cursor.execute("USE medicamentos_asma")    
         df = df.astype(object).where(pd.notna(df), None)
-        logging.info(f"Valores nulos normalizados. Ejecutando inserción de {len(df)} filas.")
+        logger.info(f"Valores nulos normalizados. Ejecutando inserción de {len(df)} filas.")
 
         insert_query = """
-            INSERT INTO medicamentos (
+            INSERT IGNORE INTO medicamentos (
                 nregistro, nombre, pactivos, labtitular,
                 labcomercializador, cn, dosis,
                 formaFarmaceuticaSimplificada, estado_aut, estado_rev,
@@ -101,14 +103,14 @@ def insert_sql(conexion, cursor, df):
         cursor.executemany(insert_query, datos)
 
         conexion.commit()
-        logging.info(f"Inserción completada: {len(datos)} filas.")
+        logger.info(f"Inserción completada: {len(datos)} filas.")
 
     except Exception as e:
         conexion.rollback()
-        logging.exception(f"Error durante la preparación o inserción en MySQL: {e}")
+        logger.exception(f"Error durante la preparación o inserción en MySQL: {e}")
         raise
     finally:
         cursor.close()
         conexion.close()
-        logging.info("Conexión cerrada.")
+        logger.info("Conexión cerrada.")
         
