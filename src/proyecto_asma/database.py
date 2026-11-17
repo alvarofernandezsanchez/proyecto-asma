@@ -5,10 +5,16 @@ import os
 import pandas as pd
 
 # Cargar variables de entorno
+load_dotenv()
+import logging
+logging.basicConfig(level=logging.INFO)
+
+
 
 def connect_to_database():
     load_dotenv()
     password = os.getenv("DB_PASSWORD")
+    logging.info("Conectando a MySQL en 127.0.0.1:3306.")
 
     # Conectar con MySQL
     conexion = mysql.connector.connect(
@@ -18,7 +24,7 @@ def connect_to_database():
         password=password,
         connection_timeout=10
     )
-    print("Conexión a la base de datos establecida correctamente.")
+    logging.info("Conexión a la base de datos establecida correctamente.")
     cursor = conexion.cursor()
     return conexion, cursor
 
@@ -64,9 +70,10 @@ def insert_sql(conexion, cursor, df):
             )
         """)
 
-        print("Base de datos y tabla creadas correctamente.")
+        logging.info("Base de datos y tabla creadas correctamente.")
         cursor.execute("USE medicamentos_asma")    
         df = df.astype(object).where(pd.notna(df), None)
+        logging.info(f"Valores nulos normalizados. Ejecutando inserción de {len(df)} filas.")
 
         insert_query = """
             INSERT INTO medicamentos (
@@ -94,12 +101,14 @@ def insert_sql(conexion, cursor, df):
         cursor.executemany(insert_query, datos)
 
         conexion.commit()
+        logging.info(f"Inserción completada: {len(datos)} filas.")
 
     except Exception as e:
         conexion.rollback()
-        print("Error:", e)
+        logging.exception(f"Error durante la preparación o inserción en MySQL: {e}")
+        raise
     finally:
         cursor.close()
         conexion.close()
-        print("Conexión cerrada.")
+        logging.info("Conexión cerrada.")
         
