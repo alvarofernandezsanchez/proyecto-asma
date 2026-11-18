@@ -10,13 +10,9 @@ from proyecto_asma.date import clean_data
 
 enfermedad_log = "asma"
 fecha_log = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-nombre_log = f"AsmAttack_{enfermedad_log}_{fecha_log}.log"
+nombre_log = f"logs/AsmAttack_{enfermedad_log}_{fecha_log}.log"
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s",
-    handlers=[logging.FileHandler(nombre_log, encoding="utf-8")],
-)
+logging.basicConfig(filename=nombre_log, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
